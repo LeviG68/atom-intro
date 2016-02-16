@@ -6,8 +6,7 @@
 * List common shortcuts for navigating files
 * Install and use common plugins to increase efficiency
 
-## Framing
-
+## Framing (5 min)
 There are 3 tools we use the most as web developers:
 
 1. Web Browser
@@ -15,6 +14,9 @@ There are 3 tools we use the most as web developers:
 3. Text Editor
 
 Today, we're going to focus on the preferred text editor for WDI, **Atom**.
+
+<!--Anyone Know Who Created Atom?  -->
+<!--Atom is created by Github  -->
 
 As programmers, our main jobs really is to write and manipulate lots of text
 across lots of files. Thus, you'll be spending a lot of time in your text
@@ -25,7 +27,7 @@ It's not just about raw speed though, getting comfortable using our text editor
 will allow us to enter and stay in 'flow', where our code output keeps up with
 our thoughts.
 
-## Useful Shortcuts
+## Useful Shortcuts (10 min)
 
 My advice would be to pick 2 or 3 new shortcuts at the beginning of each week,
 and making it a goal to use those shortcuts as often as possible for that week.
@@ -42,10 +44,10 @@ Here are the primary modifier keys for Macs:
 * ⌥ - Option  / OPT / ALT
 * ⌃ - Control / CTRL
 
-### Text Manipulation
-
 Note that many of these cursor shortcuts work in almost any Mac application, so
 try them outside of Atom!
+
+### Text Manipulation
 
 #### Cursor
 
@@ -82,7 +84,7 @@ try them outside of Atom!
 | ⌘ + f | Find in the current file |
 | ⇧ + ⌘ + f | Find in all files in the current project |
 
-### General Navigation
+#### General Navigation
 
 | Shortcut | Action |
 |----------|--------|
@@ -91,26 +93,46 @@ try them outside of Atom!
 | ⌘ + p | Go to file |
 | ⌘ + r | Go to symbol |
 | ⌘ + ⇧ + p | Toggle Command Palette |
+| ⌘ + ⌥ + Left/Right | Toggles Files/Tabs
+| ⌘ + w | Close Current File if Saved
 
 ### Cheatsheet
 
 If you want to see more shortcuts, check out this great [cheatsheet for Atom
 shortcuts](http://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf).
 
-## Plugins
+## You Do - Practice Shortcuts (5 min)
 
-Atom, like many text editors, supports plugins to add new or modify existing
-functionality.
+## Atom Packages & Customization (10 min)
 
-### Exercise: Find an Atom Plugin
+Atom allows you to customize and add packages/plugins to add new or modify existing
+functionality. It's open source, so you can contribute and even create your own! 
 
-Take 5 minutes to search the web for Atom plugins you think might be useful for
-us as web developers. At the end of the 5 minute period, let's share those
-plugins that we think will be really useful.
+### Installing Packages
 
---------------------------------------------------------------------------------
+**Atom GUI:**
 
-### Recommended Plugins
+Shortcut:
+```text ⌘ + ,
+```
+OR
+
+1. Click from top menu ***Atom --> Preferences..***
+
+2. Open ***Packages***
+
+**Terminal/CLI:**
+
+Atom comes with "apm", or Atom Package Manager
+
+```
+$ apm search <keyword>
+```
+
+```
+$ apm install <package_name>
+```
+### Recommended Packages
 
 **[emmet](https://atom.io/packages/emmet)** allows us to use the emmet system for quickly typing out HTML.
 
@@ -127,3 +149,9 @@ plugins that we think will be really useful.
 **[csscomb](https://atom.io/packages/csscomb)** helps us keep our CSS neat and tidy by sorting our properties within each rule according to convention.
 
 **[auto-complete+](https://atom.io/packages/autocomplete-plus)** is a core package in Atom, but you should look at this and see about installing more 'providers' which enhance the auto-complete functionality.
+
+### You-Do - Atom Plugins (20 min)
+
+Instructions: Break up into Groups, take 5 minutes to search the web for Atom plugins you think might be useful for us as web developers. At the end of the 5 minute period, let's share those
+plugins that we think will be really useful. Each group will present on a plugin of their choosing.
+--------------------------------------------------------------------------------
