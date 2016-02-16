@@ -93,8 +93,8 @@ try them outside of Atom!
 | ⌘ + p | Go to file |
 | ⌘ + r | Go to symbol |
 | ⌘ + ⇧ + p | Toggle Command Palette |
-| ⌘ + ⌥ + Left/Right | Toggles Files/Tabs
-| ⌘ + w | Close Current File if Saved
+| ⌘ + ⌥ + Left/Right | Toggle Files/Tabs
+| ⌘ + w | Close Current Window/File if Saved
 
 ### Cheatsheet
 
@@ -113,7 +113,8 @@ functionality. It's open source, so you can contribute and even create your own!
 **Atom GUI:**
 
 Shortcut:
-```text ⌘ + ,
+```text 
+⌘ + ,
 ```
 OR
 
@@ -152,6 +153,4 @@ $ apm install <package_name>
 
 ### You-Do - Atom Plugins (20 min)
 
-Instructions: Break up into Groups, take 5 minutes to search the web for Atom plugins you think might be useful for us as web developers. At the end of the 5 minute period, let's share those
-plugins that we think will be really useful. Each group will present on a plugin of their choosing.
---------------------------------------------------------------------------------
+Instructions: Break up into Groups, take 5 minutes to search the web for Atom plugins you think might be useful for us as web developers. At the end of the 5 minute period, let's share those plugins that we think will be really useful. Each group will present on a plugin of their choosing.
