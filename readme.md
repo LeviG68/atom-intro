@@ -93,8 +93,11 @@ try them outside of Atom!
 | ⌘ + p | Go to file |
 | ⌘ + r | Go to symbol |
 | ⌘ + ⇧ + p | Toggle Command Palette |
-| ⌘ + ⌥ + Left/Right | Toggle Files/Tabs
-| ⌘ + w | Close Current Window/File if Saved
+| ⌘ + ⌥ + Left/Right | Toggle Files/Tabs | 
+| ⌘ + w | Close Current Window/File if Saved |
+| ⌘ + s | Save current file |
+| ⌘ + ] | Tab Right | 
+| ⌘ + [ | Tab Left | 
 
 ### Cheatsheet
 
@@ -103,12 +106,12 @@ shortcuts](http://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf).
 
 ## You Do - Practice Shortcuts (5 min)
 
-## Atom Packages & Customization (10 min)
+## Atom Packages & Customization (30 min)
 
 Atom allows you to customize and add packages/plugins to add new or modify existing
 functionality. It's open source, so you can contribute and even create your own! 
 
-### Installing Packages
+### Installing Packages (5 min)
 
 **Atom GUI:**
 
@@ -133,7 +136,7 @@ $ apm search <keyword>
 ```
 $ apm install <package_name>
 ```
-### Recommended Packages
+### Recommended Packages (5 min)
 
 **[emmet](https://atom.io/packages/emmet)** allows us to use the emmet system for quickly typing out HTML.
 
@@ -154,3 +157,9 @@ $ apm install <package_name>
 ### You-Do - Atom Plugins (20 min)
 
 Instructions: Break up into Groups, take 5 minutes to search the web for Atom plugins you think might be useful for us as web developers. At the end of the 5 minute period, let's share those plugins that we think will be really useful. Each group will present on a plugin of their choosing.
+
+## Additional Resources
+
+* [Atom Source Code](https://github.com/atom/atom)
+* [Atom Documentation](https://atom.io/docs)
+* [Atom Packages Blog](https://atom.io/docs)
