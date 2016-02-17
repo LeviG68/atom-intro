@@ -97,14 +97,41 @@ try them outside of Atom!
 | ⌘ + w | Close Current Window/File if Saved |
 | ⌘ + s | Save current file |
 | ⌘ + ] | Tab Right | 
-| ⌘ + [ | Tab Left | 
+| ⌘ + [ | Tab Left |
+| ⌘ + z | Undo Change |
+| ⌘ + y | Redo Change |
 
 ### Cheatsheet
 
 If you want to see more shortcuts, check out this great [cheatsheet for Atom
 shortcuts](http://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf).
 
-## You Do - Practice Shortcuts (5 min)
+## You Do - Customize Keybindings (5 min) 
+
+Wouldn't it be nice if we could have an Auto Indent? 
+
+1. ` ⌘ + ⇧ + p` (Toggle Command Palette)
+2. Search keymap and `enter` to open your keymap.cson file 
+
+OR 
+
+1. Click from top menu ***Atom --> Preferences***
+2. Open ***Keybindings***
+3. Click `your keymap file` (keymap.cson)
+
+
+**At the bottom of your keymap.cson file, add the following:**
+
+```cson
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-i': 'editor:auto-indent'
+```
+
+Try it Out:
+
+1. `cmd + a` (Select All)
+
+2. `cmd + i` (Auto Indent)
 
 ## Atom Packages & Customization (30 min)
 
@@ -121,9 +148,11 @@ Shortcut:
 ```
 OR
 
-1. Click from top menu ***Atom --> Preferences..***
+
+1. Click from top menu ***Atom --> Preferences***
 
 2. Open ***Packages***
+
 
 **Terminal/CLI:**
 
@@ -148,8 +177,6 @@ $ apm install <package_name>
   * [csslint](https://atom.io/packages/csslint) adds support for CSS
 **[ruby-block](https://atom.io/packages/ruby-block)** adds highlighting based on where our cursor is to help us see the structure of our code
 
-**[javascript-snippets](https://atom.io/packages/javascript-snippets)** lets us type out shortcuts for common JS code and it will expand out to the full text.
-
 **[csscomb](https://atom.io/packages/csscomb)** helps us keep our CSS neat and tidy by sorting our properties within each rule according to convention.
 
 **[auto-complete+](https://atom.io/packages/autocomplete-plus)** is a core package in Atom, but you should look at this and see about installing more 'providers' which enhance the auto-complete functionality.
@@ -163,3 +190,4 @@ Instructions: Break up into Groups, take 5 minutes to search the web for Atom pl
 * [Atom Source Code](https://github.com/atom/atom)
 * [Atom Documentation](https://atom.io/docs)
 * [Atom Packages Blog](https://atom.io/docs)
+* [Customizing Keybindings](https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings)
