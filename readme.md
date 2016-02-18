@@ -106,32 +106,7 @@ try them outside of Atom!
 If you want to see more shortcuts, check out this great [cheatsheet for Atom
 shortcuts](http://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf).
 
-## You Do - Customize Keybindings (5 min) 
-
-Wouldn't it be nice if we could have an Auto Indent? 
-
-1. ` ⌘ + ⇧ + p` (Toggle Command Palette)
-2. Search keymap and `enter` to open your keymap.cson file 
-
-OR 
-
-1. Click from top menu ***Atom --> Preferences***
-2. Open ***Keybindings***
-3. Click `your keymap file` (keymap.cson)
-
-
-**At the bottom of your keymap.cson file, add the following:**
-
-```cson
-'atom-workspace atom-text-editor:not([mini])':
-  'cmd-i': 'editor:auto-indent'
-```
-
-Try it Out:
-
-1. `cmd + a` (Select All)
-
-2. `cmd + i` (Auto Indent)
+## You Do - Practice Shortcuts (5 min)
 
 ## Atom Packages & Customization (30 min)
 
@@ -181,13 +156,16 @@ $ apm install <package_name>
 
 **[auto-complete+](https://atom.io/packages/autocomplete-plus)** is a core package in Atom, but you should look at this and see about installing more 'providers' which enhance the auto-complete functionality.
 
-### You-Do - Atom Plugins (20 min)
+### You-Do - Atom Packages (20 min)
 
 Additional Plugins:
-* https://atom.io/packages/color-picker
-* 
+* [Color-Picker](https://atom.io/packages/color-picker)
+* [Merge-Conflicts](https://atom.io/packages/merge-conflicts)
+* [Stack-OverFlow](https://github.com/Chris911/Ask-Stack-Atom)
+* [Pigments](https://atom.io/packages/pigments)
+* [MiniMap](https://atom.io/packages/minimap)
 
-Instructions: Break up into Groups, take 5 minutes to research your given plugin. Each group will present on the plugin, specifically focusing on why would it be useful for us as developers and a demo of the feature of the plugin. 
+Instructions: Let's Break up into Groups, take 5 minutes to research a chosen plugin from the above list. Each group will present on a plugin, specifically focusing on why would it be useful for us as developers and a brief demo of the feature of the plugin. 
 
 ## Additional Resources
 
@@ -195,3 +173,30 @@ Instructions: Break up into Groups, take 5 minutes to research your given plugin
 * [Atom Documentation](https://atom.io/docs)
 * [Atom Packages Blog](https://atom.io/docs)
 * [Customizing Keybindings](https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings)
+
+### Bonus: Customize Keybindings 
+
+Wouldn't it be nice if we could have an Auto Indent Shortcut? 
+
+1. ` ⌘ + ⇧ + p` (Toggle Command Palette)
+2. Search keymap and `enter` to open your keymap.cson file 
+
+OR 
+
+1. Click from top menu ***Atom --> Preferences***
+2. Open ***Keybindings***
+3. Click `your keymap file` (keymap.cson)
+
+
+**At the bottom of your keymap.cson file, add the following:**
+
+```cson
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-i': 'editor:auto-indent'
+```
+
+Try it Out:
+
+1. `cmd + a` (Select All)
+
+2. `cmd + i` (Auto Indent)
