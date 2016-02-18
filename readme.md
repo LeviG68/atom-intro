@@ -183,7 +183,11 @@ $ apm install <package_name>
 
 ### You-Do - Atom Plugins (20 min)
 
-Instructions: Break up into Groups, take 5 minutes to search the web for Atom plugins you think might be useful for us as web developers. At the end of the 5 minute period, let's share those plugins that we think will be really useful. Each group will present on a plugin of their choosing.
+Additional Plugins:
+* https://atom.io/packages/color-picker
+* 
+
+Instructions: Break up into Groups, take 5 minutes to research your given plugin. Each group will present on the plugin, specifically focusing on why would it be useful for us as developers and a demo of the feature of the plugin. 
 
 ## Additional Resources
 
