@@ -197,6 +197,6 @@ OR
 
 Try it Out:
 
-1. `cmd + a` (Select All)
-
-2. `cmd + i` (Auto Indent)
+1. Hightlight the code you want to indent.
+  - Pro-tip: Use `cmd + a` to Select All
+- `cmd + i` (Auto Indent the selected code)
