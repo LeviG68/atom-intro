@@ -55,6 +55,7 @@ try them outside of Atom!
 |----------|--------|
 | ⌘ + Left/Right | Move the cursor to the beginning / end of the line |
 | ⌘ + Up/Down | Move the cursor to the beginning / end of the document |
+| fn + Up/Down | Move the cursor page up / page down |
 | ⌥ + Left/Right | Move the cursor between words |
 | ⌥ + backspace | delete to the beginning of the word |
 
